@@ -16,7 +16,7 @@ main{
     display:grid;
     gap:1rem;
     grid-template-columns: repeat(3,auto);
-    grid-template-rows: repeat(3,auto);
+    grid-template-rows: repeat(4,auto);
     margin-block: auto;
 }
 .drumb-item{
@@ -43,4 +43,14 @@ main{
     transform:scale(1.2);
     background-color: #582464;
     color:coral;
+}
+.display{
+    background-color: black;
+    width: 100%;
+    height: 4rem;
+    color: rgb(0,255,0);
+    font-size: 2rem;
+    padding:1rem;
+    grid-area:4/1/5/4;
+    text-align:center;
 }
