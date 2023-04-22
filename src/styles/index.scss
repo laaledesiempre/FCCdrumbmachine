@@ -1,0 +1,46 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-color:slateblue;
+}
+main{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+}
+.drums-container{
+    display:grid;
+    gap:1rem;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(3,auto);
+    margin-block: auto;
+}
+.drumb-item{
+    padding:2rem;
+    font-size: 3rem;
+    border:none;
+    background-color:purple;
+    color:pink;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 1rem;
+    transition: 400ms all;
+}
+.drumb-item:nth-child(even){
+    background-color: pink;
+    color:purple;
+}
+.drumb-item:hover{
+    transform:scale(1.2);
+    background-color: coral;
+    color: #582464;
+}
+.drumb-item:nth-child(even):hover{
+    transform:scale(1.2);
+    background-color: #582464;
+    color:coral;
+}

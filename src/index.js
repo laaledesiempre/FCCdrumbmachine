@@ -1,11 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client'
-import {Card} from './Card'
+import "./styles/index.scss";
+import { App } from "./components/App";
+import { Provider } from "react-redux";
+import { store } from "./store";
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <Card/>
-
+    <>
+    <Provider store={store}>
+      <App />
+    </Provider>
+  </>
 )
 ;
