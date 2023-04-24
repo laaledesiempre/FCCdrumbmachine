@@ -43,7 +43,7 @@ export const DrumPad = () => {
   })
   return (
     <div>
-      <div className="drums-container">
+      <div className="drums-container" id="drum-machine">
         <button className="drumb-item" onClick={()=>{play("Heater 1","https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3")}} id="Q">Q</button>
         <button className="drumb-item" onClick={()=>{play("Heater 2","https://s3.amazonaws.com/freecodecamp/drums/Heater-2.mp3")}} id="W">W</button>
         <button className="drumb-item" onClick={()=>{play("Heater 3","https://s3.amazonaws.com/freecodecamp/drums/Heater-3.mp3")}} id="E">E</button>
