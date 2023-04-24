@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { setDisplayContent } from "../../store/slices/display";
 
 export const DrumPad = () => {
-  const audiofiles={
+  const audio={
     heater1: {name:"Heater 1",src:"https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3"},
     heater2: {name:"Heater 2",src:"https://s3.amazonaws.com/freecodecamp/drums/Heater-2.mp3"},
     heater3: {name:"Heater 3",src:"https://s3.amazonaws.com/freecodecamp/drums/Heater-3.mp3"},

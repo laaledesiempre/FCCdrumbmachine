@@ -30,14 +30,14 @@ main{
     border-radius: 1rem;
     transition: 400ms all;
 }
-.drumb-item:nth-child(even){
-    background-color: pink;
-    color:purple;
-}
 .drumb-item:hover{
     transform:scale(1.2);
     background-color: coral;
     color: #582464;
+}
+.drumb-item:nth-child(even){
+    background-color: pink;
+    color:purple;
 }
 .drumb-item:nth-child(even):hover{
     transform:scale(1.2);
