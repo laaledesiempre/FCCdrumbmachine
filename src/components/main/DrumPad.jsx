@@ -25,31 +25,31 @@ export const DrumPad = () => {
     const keyName = event.key;
 
     if (keyName === "q"){
-      play("Heater 1","https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3")
+      play(audio.heater1.name,"Q")
     }
     if (keyName === "w"){
-      play("Heater 2","https://s3.amazonaws.com/freecodecamp/drums/Heater-2.mp3")
+      play(audio.heater2.name,"W")
     }
     if (keyName === "e"){
-      play("Heater 3","https://s3.amazonaws.com/freecodecamp/drums/Heater-3.mp3")
+      play(audio.heater3.name,"E")
     }
     if (keyName === "a"){
-      play("Heater 4","https://s3.amazonaws.com/freecodecamp/drums/Heater-4_1.mp3")
+      play(audio.heater4.name,"A")
     }
     if (keyName === "s"){
-      play("Clap","https://s3.amazonaws.com/freecodecamp/drums/Heater-6.mp3")
+      play(audio.clap.name,"S")
     }
     if (keyName === "d"){
-      play("Open HH","https://s3.amazonaws.com/freecodecamp/drums/Dsc_Oh.mp3")
+      play(audio.openhh.name,"D")
     }
     if (keyName === "z"){
-      play("Kick n' Hat","https://s3.amazonaws.com/freecodecamp/drums/Kick_n_Hat.mp3")
+      play(audio.kicknhat.name,"Z")
     }
     if (keyName === "x"){
-      play("Kick","https://s3.amazonaws.com/freecodecamp/drums/RP4_KICK_1.mp3")
+      play(audio.kick.name,"X")
     }
     if (keyName === "c"){
-      play("Closed HH","https://s3.amazonaws.com/freecodecamp/drums/Cev_H2.mp3")
+      play(audio.closedhh.name,"C")
     }
   })
   return (
