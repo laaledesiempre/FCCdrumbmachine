@@ -16,9 +16,9 @@ export const DrumPad = () => {
   }
   const text= useSelector((state)=> state.displayReducer.display)
   const dispatch= useDispatch()
-  const play=(name,src)=>{
+  const play=(name,id)=>{
       dispatch(setDisplayContent(name))
-      document.querySelector(src).play()
+      document.querySelector(id).play()
   }
   window.addEventListener("keydown",
   (event) => {
