@@ -54,3 +54,8 @@ main{
     grid-area:4/1/5/4;
     text-align:center;
 }
+.drum-pad{
+    audio{
+        visibility: hidden;
+    }
+}
