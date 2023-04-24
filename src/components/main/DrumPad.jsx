@@ -18,7 +18,7 @@ export const DrumPad = () => {
   const dispatch= useDispatch()
   const play=(name,id)=>{
       dispatch(setDisplayContent(name))
-      document.querySelector(id).play()
+      document.querySelector("#"+id).play()
   }
   window.addEventListener("keydown",
   (event) => {
